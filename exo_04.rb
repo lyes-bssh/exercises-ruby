@@ -1,8 +1,5 @@
-puts "Salut, dis-moi t'es né quand ?"
-birthday = 1996
-puts "Je suis né en #{birthday}"
-puts "Quand est-ce que tu auras 100 ans ?"
-century_year = 1996 + 100
-if birthday == 1996
-  puts "J'aurai 100 ans en #{century_year}"
-end
+puts "Hi, tell me when were you born?"
+birth_year = gets.chomp.to_i
+century_year = 100 + birth_year
+puts "You will be 100 years old in #{century_year}"
+

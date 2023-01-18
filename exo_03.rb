@@ -1,8 +1,6 @@
-puts "Salut, dis-moi t'es né quand ?"
-birthday = 1996
-puts "Je suis né en #{birthday}"
-puts "Tu avais quel âge en 2017 ?"
-age = 2017 - 1996
-if birthday == 1996
-  puts "J'avais #{age} en 2017"
-end
+puts"Hi, what year were you born ? :"
+date = gets.chomp
+request =  6
+result = (2023 - date.to_i - request)
+
+puts "You were #{result} years old in 2017"
